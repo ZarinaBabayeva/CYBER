@@ -36,3 +36,16 @@ a {
   font-family: "Nova Square", sans-serif;
   color: white;
 }
+.heading {
+  text-align: center;
+  color: #3e0850;
+  margin-bottom: 20px;
+}
+.heading h3 {
+  font-family: "Manrope", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.heading p {
+  opacity: 0.5;
+}
