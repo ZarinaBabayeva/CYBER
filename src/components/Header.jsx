@@ -16,7 +16,7 @@ function Header() {
           <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink to="/">Cyber</NavLink>
+          <NavLink to="/">Customers</NavLink>
         </li>
         <li>
           <NavLink to="/">Hackers</NavLink>
