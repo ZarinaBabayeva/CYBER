@@ -33,4 +33,8 @@ nav {
   margin-right: 10px;
   color: #6d108c;
   font-size: 25px;
+  transition: 0.3s;
+}
+.user-container li:hover i {
+  color: white;
 }

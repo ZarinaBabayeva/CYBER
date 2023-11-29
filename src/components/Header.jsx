@@ -30,12 +30,14 @@ function Header() {
       </ul>
       <ul className="user-container j-flex">
         <li className="j-flex">
-          <i className="fa-solid fa-user"></i>
-          <NavLink>Sign In</NavLink>
+          <NavLink>
+            <i className="fa-solid fa-user"></i>Sign In
+          </NavLink>
         </li>
         <li className="j-flex">
-        <i className="fa-regular fa-user"></i>
-          <NavLink>Sign Up</NavLink>
+          <NavLink>
+            <i className="fa-regular fa-user"></i>Sign Up
+          </NavLink>
         </li>
       </ul>
     </nav>
