@@ -38,6 +38,44 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className="benefits">
+        <div className="container">
+          <div className="benefits-cards j-flex">
+            <div className="benefits-card">
+              <div className="front-card">
+                <i className="fa-solid fa-bugs"></i>
+                <h5>Proactive Threat Mitigation</h5>
+              </div>
+              <div className="back-card">
+                <p>
+                  Identify and mitigate potential threats before they can be
+                  exploited.
+                </p>
+              </div>
+            </div>
+            <div className="benefits-card">
+              <i className="fa-solid fa-magnifying-glass"></i>
+              <h5>Continuous Monitoring</h5>
+            </div>
+            <div className="benefits-card">
+              <i className="fa-solid fa-shield-halved"></i>
+              <h5>Enhanced Resilience</h5>
+            </div>
+            <div className="benefits-card">
+              <i className="fa-solid fa-certificate"></i>
+              <h5>Compliance Assurance</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className="for-hackers">
+        <div className="container">
+          <div className="heading">
+            <h3>For hackers</h3>
+            <p>Earn money, learn skills, and attack-proof the internet.</p>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

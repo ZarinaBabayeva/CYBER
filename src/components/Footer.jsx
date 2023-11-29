@@ -90,6 +90,10 @@ function Footer() {
           </ul>
         </div>
       </div>
+      <hr />
+      <div className="date">
+        <small>November , 2023</small>
+      </div>
     </footer>
   );
 }
