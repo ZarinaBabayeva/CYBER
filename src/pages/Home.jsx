@@ -147,6 +147,96 @@ function Home() {
           </div>
         </div>
       </section>
+      <section>
+        <div className="container">
+          <div className="heading">
+            <h3>News</h3>
+            <p>Explore our knowledge base.</p>
+          </div>
+          <div className="news-cards j-flex">
+            <div className="news-card">
+              <div className="news-card-img">
+                <img
+                  src="https://github.blog/wp-content/uploads/2023/10/Security_banner-OG.jpg?resize=800%2C425"
+                  alt="image"
+                />
+              </div>
+              <div className="news-card-text">
+                <p>Successful Bug Bounty Campaign</p>
+                <small>
+                  Our recent bug bounty campaign concluded with tremendous
+                  success! A big thank you to all the security researchers who
+                  participated and helped make our systems more secure. Your
+                  dedication and expertise are invaluable to our ongoing
+                  commitment to cybersecurity.
+                </small>
+                <p className="date">Date:</p>
+                <small>December 1, 2023</small>
+              </div>
+            </div>
+            <div className="news-card">
+              <div className="news-card-img">
+                <img
+                  src="https://www.freecodecamp.org/news/content/images/2019/11/bug.png"
+                  alt="image"
+                />
+              </div>
+              <div className="news-card-text">
+                <p>New Bug Bounty Program Launched</p>
+                <small>
+                  We're thrilled to announce the launch of our latest bug bounty
+                  program! Ethical hackers and security researchers are invited
+                  to participate in helping us identify and address potential
+                  vulnerabilities. Your contributions play a crucial role in
+                  enhancing our cybersecurity defenses.
+                </small>
+                <p className="date">Date:</p>
+                <small>November 15, 2023</small>
+              </div>
+            </div>
+            <div className="news-card">
+              <div className="news-card-img">
+                <img
+                  src="https://miro.medium.com/v2/resize:fit:1200/1*MP_DQbKRZe_h8LUwPTzhEQ.png"
+                  alt="image"
+                />
+              </div>
+              <div className="news-card-text">
+                <p>Upcoming Bug Bounty Challenges</p>
+                <small>
+                  Exciting news! Brace yourselves for upcoming bug bounty
+                  challenges. We'll be introducing new targets and rewards,
+                  providing opportunities for security researchers to contribute
+                  to our ongoing efforts in strengthening our cybersecurity
+                  defenses. Stay tuned for more details!
+                </small>
+                <p className="date">Date:</p>
+                <small>November 5, 2023</small>
+              </div>
+            </div>
+            <div className="news-card">
+              <div className="news-card-img">
+                <img
+                  src="https://son-images.imgix.net/news/2023/lghazal-wci"
+                  alt="image"
+                />
+              </div>
+              <div className="news-card-text">
+                <p>Top Researchers Recognized</p>
+                <small>
+                  Celebrating the exceptional efforts of our top bug bounty
+                  researchers! We've recognized and rewarded the outstanding
+                  contributions of individuals who have consistently
+                  demonstrated their expertise in identifying and responsibly
+                  disclosing security vulnerabilities.
+                </small>
+                <p className="date">Date:</p>
+                <small>October 20, 2023</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }

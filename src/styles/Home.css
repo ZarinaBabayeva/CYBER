@@ -1,6 +1,8 @@
 :root {
   --benefits-card-per-row: 4;
   --benefits-card-gap: 20px;
+  --news-card-per-row: 4;
+  --news-card-gap: 15px;
 }
 .animation video {
   height: 400px;
@@ -126,4 +128,44 @@
   height: 150px;
   bottom: 0;
   right: 30px;
+}
+.news-cards {
+  width: 100%;
+}
+.news-card {
+  width: calc(
+    100% / var(--news-card-per-row) -
+      (var(--news-card-gap) - var(--news-card-gap) / var(--news-card-per-row))
+  );
+  height: 400px;
+  margin: 50px 0;
+  box-shadow: 2px 2px 4px gray;
+  border-radius: 10px;
+}
+.news-card-img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px 10px 0 0;
+}
+.news-card-img img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+.news-card-text {
+  padding: 10px;
+  text-align: center;
+}
+.news-card-text p {
+  color: #5b0977;
+  margin: 10px 0;
+}
+.news-card-text small {
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.news-card-text .date {
+  color: gray !important;
+  font-size: 14px;
 }
