@@ -8,6 +8,7 @@
   height: 400px;
 }
 .hero-text {
+  width: 60%;
   text-align: center;
 }
 .benefits {
