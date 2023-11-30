@@ -122,6 +122,52 @@ function Hackers() {
           </form>
         </div>
       </section>
+      <section>
+        <div className="container">
+          <div className="hack-for-good j-flex">
+            <div className="hackers-image">
+              <img
+                src="https://img.freepik.com/premium-vector/attention-danger-hacking-neon-symbol-red-map-background-hack-attack-concept-system-hacked-error_213860-2772.jpg?w=2000"
+                alt="hack for good"
+                className="photo0"
+              />
+              <img
+                src="https://online.stanford.edu/sites/default/files/styles/embedded_large/public/2019-07/hack-lab_INTLPOL268.jpg?itok=9wwhRzbR"
+                alt="hack"
+                className="photo1"
+              />
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY0COJDPT5dmpxXCTHX2IvS6FPxZJHpm9Orw&usqp=CAU"
+                alt="hack"
+                className="photo2"
+              />
+            </div>
+            <div className="hackers-text">
+              <div className="heading">
+                <h3>Hack for Good</h3>
+                <p>Earn, Learn, and Secure the Internet</p>
+              </div>
+              <p>
+                Welcome to a community that values ethical hacking as a force
+                for positive change! At TuringSec, we champion the idea that
+                hacking skills can be harnessed for good, offering opportunities
+                to earn, learn, and actively contribute to a more secure
+                internet.Unlock the potential to earn while making a positive
+                impact. Ethical hackers are highly sought after, and our
+                platform connects you with organizations that recognize and
+                reward your skills through bug bounty programs. Contribute to
+                the safety of online spaces and be financially acknowledged for
+                your efforts.Continuous learning is at the heart of what we do.
+                Whether you`re an experienced cybersecurity professional or just
+                starting, our platform provides resources, challenges, and a
+                supportive community for your growth. Stay updated on the latest
+                threats, tools, and techniques to stay ahead in the
+                ever-evolving world of cybersecurity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 }
