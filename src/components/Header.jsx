@@ -19,7 +19,7 @@ function Header() {
           <NavLink to="/">Customers</NavLink>
         </li>
         <li>
-          <NavLink to="/">Hackers</NavLink>
+          <NavLink to="/hackers">Hackers</NavLink>
         </li>
         <li>
           <NavLink to="/">About</NavLink>

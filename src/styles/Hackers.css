@@ -1,0 +1,28 @@
+.top {
+  margin: 50px 0;
+}
+.leader-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 40px;
+}
+.leader {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px 15px;
+}
+.leader h3:not(:last-child) {
+  margin-right: -80px;
+}
+.hacker {
+  gap: 10px;
+}
+.hacker img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}

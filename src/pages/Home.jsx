@@ -1,4 +1,5 @@
 import "../styles/Home.css";
+import { NavLink } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -115,13 +116,13 @@ function Home() {
               <h3>Learn and Grow</h3>
               <p>
                 Continuous learning is at the heart of what we do. Whether
-                you're an experienced cybersecurity professional or just
+                you`re an experienced cybersecurity professional or just
                 starting, our platform provides resources, challenges, and a
                 supportive community for your growth.
               </p>
               <h3>Hack for Good</h3>
               <p>
-                TuringSec encourages hacking for positive impact. Let's redefine
+                TuringSec encourages hacking for positive impact. Let`s redefine
                 the narrative surrounding hacking by channeling our skills
                 toward protecting user data, fortifying digital infrastructure,
                 and ensuring a safer online environment for everyone.
@@ -154,7 +155,7 @@ function Home() {
             <p>Explore our knowledge base.</p>
           </div>
           <div className="news-cards j-flex">
-            <div className="news-card">
+            <NavLink className="news-card">
               <div className="news-card-img">
                 <img
                   src="https://github.blog/wp-content/uploads/2023/10/Security_banner-OG.jpg?resize=800%2C425"
@@ -173,8 +174,8 @@ function Home() {
                 <p className="date">Date:</p>
                 <small>December 1, 2023</small>
               </div>
-            </div>
-            <div className="news-card">
+            </NavLink>
+            <NavLink className="news-card">
               <div className="news-card-img">
                 <img
                   src="https://www.freecodecamp.org/news/content/images/2019/11/bug.png"
@@ -184,7 +185,7 @@ function Home() {
               <div className="news-card-text">
                 <p>New Bug Bounty Program Launched</p>
                 <small>
-                  We're thrilled to announce the launch of our latest bug bounty
+                  We`re thrilled to announce the launch of our latest bug bounty
                   program! Ethical hackers and security researchers are invited
                   to participate in helping us identify and address potential
                   vulnerabilities. Your contributions play a crucial role in
@@ -193,8 +194,8 @@ function Home() {
                 <p className="date">Date:</p>
                 <small>November 15, 2023</small>
               </div>
-            </div>
-            <div className="news-card">
+            </NavLink>
+            <NavLink className="news-card">
               <div className="news-card-img">
                 <img
                   src="https://miro.medium.com/v2/resize:fit:1200/1*MP_DQbKRZe_h8LUwPTzhEQ.png"
@@ -205,7 +206,7 @@ function Home() {
                 <p>Upcoming Bug Bounty Challenges</p>
                 <small>
                   Exciting news! Brace yourselves for upcoming bug bounty
-                  challenges. We'll be introducing new targets and rewards,
+                  challenges. We`ll be introducing new targets and rewards,
                   providing opportunities for security researchers to contribute
                   to our ongoing efforts in strengthening our cybersecurity
                   defenses. Stay tuned for more details!
@@ -213,8 +214,8 @@ function Home() {
                 <p className="date">Date:</p>
                 <small>November 5, 2023</small>
               </div>
-            </div>
-            <div className="news-card">
+            </NavLink>
+            <NavLink className="news-card">
               <div className="news-card-img">
                 <img
                   src="https://son-images.imgix.net/news/2023/lghazal-wci"
@@ -225,7 +226,7 @@ function Home() {
                 <p>Top Researchers Recognized</p>
                 <small>
                   Celebrating the exceptional efforts of our top bug bounty
-                  researchers! We've recognized and rewarded the outstanding
+                  researchers! We`ve recognized and rewarded the outstanding
                   contributions of individuals who have consistently
                   demonstrated their expertise in identifying and responsibly
                   disclosing security vulnerabilities.
@@ -233,7 +234,7 @@ function Home() {
                 <p className="date">Date:</p>
                 <small>October 20, 2023</small>
               </div>
-            </div>
+            </NavLink>
           </div>
         </div>
       </section>
