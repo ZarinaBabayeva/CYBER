@@ -58,6 +58,70 @@ function Hackers() {
           </div>
         </div>
       </section>
+      <section className="hackers-contact">
+        <div className="container">
+          <div className="heading">
+            <h3>Speak with a Security Expert</h3>
+            <p>
+              We can help you detect and resolve vulnerabilities before they are
+              exploited.
+            </p>
+          </div>
+          <form className="security-expert j-flex">
+            <div className="column1">
+              <label htmlFor="name">First Name:</label>
+              <input type="text" id="name" />
+              <label htmlFor="surname">Last Name:</label>
+              <input type="text" id="surname" />
+              <label htmlFor="email">Business Email:</label>
+              <input type="email" id="email" />
+            </div>
+            <div className="column2">
+              <label htmlFor="company">Company:</label>
+              <input type="text" id="company" />
+              <label htmlFor="job">Job Title:</label>
+              <input type="text" id="job" />
+              <label htmlFor="country">Country:</label>
+              <input type="text" id="country" />
+            </div>
+            <div className="column3">
+              <div>
+                <input type="radio" name="security" id="identify" />
+                <label htmlFor="identify">
+                  Identify and remediate vulnerabilities faster
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="security" id="fix" />
+                <label htmlFor="fix">
+                  Fix security issues during development
+                </label>
+              </div>
+              <div>
+                <input type="radio" name="security" id="skillsets" />
+                <label htmlFor="skillsets">
+                  Scale my organization`s security operations or skillsets
+                </label>
+                <div>
+                  <input type="radio" name="security" id="prove" />
+                  <label htmlFor="prove">Prove compliance</label>
+                </div>
+                <div>
+                  <input type="radio" name="security" id="cloud" />
+                  <label htmlFor="cloud">
+                    Eliminate cloud misconfigurations
+                  </label>
+                </div>
+                <div>
+                  <input type="radio" name="security" id="dont" />
+                  <label htmlFor="dont">I don`t work in security </label>
+                </div>
+              </div>
+              <button className="send-btn">Send</button>
+            </div>
+          </form>
+        </div>
+      </section>
     </>
   );
 }
