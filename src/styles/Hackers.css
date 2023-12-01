@@ -69,8 +69,17 @@ input[type="email"] {
   padding: 5px 10px;
   border: none;
   border-radius: 15px;
-  box-shadow: 2px 2px 4px gray;
+
   margin-left: 250px;
+  transition: 0.3s;
+  background-color: #936da0;
+  box-shadow: 2px 2px 4px inset white;
+  color: white;
+}
+.send-btn:hover {
+  background-color: white;
+  box-shadow: 2px 2px 4px inset #936da0;
+  color: #613a6e;
 }
 .hack-for-good {
   margin: 100px 0;

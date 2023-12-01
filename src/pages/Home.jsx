@@ -188,8 +188,7 @@ function Home() {
                   We`re thrilled to announce the launch of our latest bug bounty
                   program! Ethical hackers and security researchers are invited
                   to participate in helping us identify and address potential
-                  vulnerabilities. Your contributions play a crucial role in
-                  enhancing our cybersecurity defenses.
+                  vulnerabilities. 
                 </small>
                 <p className="date">Date:</p>
                 <small>November 15, 2023</small>
