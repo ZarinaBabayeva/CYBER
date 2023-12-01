@@ -35,7 +35,7 @@ function Header() {
           </NavLink>
         </li>
         <li className="j-flex">
-          <NavLink>
+          <NavLink to="/signUp">
             <i className="fa-regular fa-user"></i>Sign Up
           </NavLink>
         </li>

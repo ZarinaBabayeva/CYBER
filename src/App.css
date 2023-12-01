@@ -14,6 +14,14 @@ body {
 a {
   color: inherit;
 }
+input::placeholder {
+  color: #5b0977;
+  opacity: 0.4;
+  text-align: center;
+}
+input:focus::placeholder {
+  color: white;
+}
 .j-flex {
   display: flex;
   justify-content: space-between;

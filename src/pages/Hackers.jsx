@@ -70,19 +70,35 @@ function Hackers() {
           <form className="security-expert j-flex">
             <div className="column1">
               <label htmlFor="name">First Name:</label>
-              <input type="text" id="name" />
+              <input type="text" id="name" placeholder="Enter your name" />
               <label htmlFor="surname">Last Name:</label>
-              <input type="text" id="surname" />
+              <input
+                type="text"
+                id="surname"
+                placeholder="Enter your surname"
+              />
               <label htmlFor="email">Business Email:</label>
-              <input type="email" id="email" />
+              <input
+                type="email"
+                id="email"
+                placeholder="Enter your business email"
+              />
             </div>
             <div className="column2">
               <label htmlFor="company">Company:</label>
-              <input type="text" id="company" />
+              <input
+                type="text"
+                id="company"
+                placeholder="Enter your company name"
+              />
               <label htmlFor="job">Job Title:</label>
-              <input type="text" id="job" />
+              <input type="text" id="job" placeholder="Enter your job" />
               <label htmlFor="country">Country:</label>
-              <input type="text" id="country" />
+              <input
+                type="text"
+                id="country"
+                placeholder="Enter the country you live in"
+              />
             </div>
             <div className="column3">
               <div>
@@ -129,17 +145,17 @@ function Hackers() {
               <img
                 src="https://img.freepik.com/premium-vector/attention-danger-hacking-neon-symbol-red-map-background-hack-attack-concept-system-hacked-error_213860-2772.jpg?w=2000"
                 alt="hack for good"
-                className="photo0"
+                className="photo3"
               />
               <img
                 src="https://online.stanford.edu/sites/default/files/styles/embedded_large/public/2019-07/hack-lab_INTLPOL268.jpg?itok=9wwhRzbR"
                 alt="hack"
-                className="photo1"
+                className="photo4"
               />
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY0COJDPT5dmpxXCTHX2IvS6FPxZJHpm9Orw&usqp=CAU"
                 alt="hack"
-                className="photo2"
+                className="photo5"
               />
             </div>
             <div className="hackers-text">
