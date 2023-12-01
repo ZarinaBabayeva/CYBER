@@ -25,7 +25,7 @@ function Header() {
           <NavLink to="/">About</NavLink>
         </li>
         <li>
-          <NavLink to="/">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
       <ul className="user-container j-flex">
