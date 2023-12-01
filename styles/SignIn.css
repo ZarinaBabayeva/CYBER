@@ -1,0 +1,56 @@
+.sign-in {
+  margin: 70px 0;
+}
+.sign-in-img {
+  position: relative;
+  width: 50%;
+  height: 60vh;
+}
+.photo6 {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  top: 0;
+  left: 100px;
+  border-radius: 50%;
+}
+.sign-in-form {
+  width: 50%;
+  text-align: center;
+}
+.sign-in-f {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 50px 0;
+}
+.sign-in-f input {
+  width: 300px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 5px 15px;
+  box-shadow: 2px 2px 10px inset #5b0977;
+}
+#confirm-btn {
+  display: inline-block;
+  border: none;
+  padding: 5px 15px;
+  background-color: #5b0977;
+  color: white;
+  box-shadow: 2px 2px 4px inset white;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#confirm-btn:hover {
+  color: #5b0977;
+  box-shadow: 2px 2px 4px inset #5b0977;
+  background-color: white;
+}

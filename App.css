@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Square&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+a {
+  color: inherit;
+}
+input::placeholder {
+  color: #5b0977;
+  opacity: 0.4;
+  text-align: center;
+}
+input:focus::placeholder {
+  color: white;
+}
+.j-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.container {
+  width: 1140px;
+  max-width: 95%;
+  margin: 0 auto;
+}
+.logo-container {
+  width: max-content;
+  height: 70px;
+  gap: 7px;
+}
+.logo-img {
+  width: 50px;
+}
+.logo {
+  font-family: "Nova Square", sans-serif;
+  color: white;
+}
+.heading {
+  text-align: center;
+  color: #3e0850;
+  margin-bottom: 20px;
+}
+.heading h3 {
+  font-family: "Manrope", sans-serif;
+  text-transform: capitalize;
+  margin-bottom: 8px;
+}
+.heading p {
+  opacity: 0.5;
+}
