@@ -7,13 +7,9 @@ function Home() {
         <div className="container">
           <div className="hero j-flex">
             <div className="animation">
-              <video
-                src="../src/media/animation.mp4"
-                alt="animation"
-                autoPlay
-                loop
-                muted
-                playsInline
+              <img
+                src="https://cdn.dribbble.com/users/3943049/screenshots/14032596/media/9e39cf22d33b4d2b77e9f270f2f06f6e.gif"
+                alt="gif"
               />
             </div>
             <div className="hero-text">
@@ -188,7 +184,7 @@ function Home() {
                   We`re thrilled to announce the launch of our latest bug bounty
                   program! Ethical hackers and security researchers are invited
                   to participate in helping us identify and address potential
-                  vulnerabilities. 
+                  vulnerabilities.
                 </small>
                 <p className="date">Date:</p>
                 <small>November 15, 2023</small>

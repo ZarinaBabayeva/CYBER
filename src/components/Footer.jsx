@@ -23,7 +23,7 @@ function Footer() {
             <NavLink to="/hackers">Hackers</NavLink>
           </li>
           <li>
-            <NavLink to="/">About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li>
             <NavLink to="/contact">Contact</NavLink>
@@ -55,10 +55,10 @@ function Footer() {
       <div className="fo-row2 j-flex">
         <div>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi
-            saepe ipsam impedit natus! Mollitia ipsum, quasi provident unde,
-            quidem non explicabo, consequatur inventore reiciendis sapiente quae
-            aut labore cumque modi!
+            At TuringSec, we prioritize the security of our systems and
+            products. We believe that collaboration with the global community of
+            security researchers and ethical hackers is essential to maintaining
+            a robust cybersecurity posture.
           </p>
         </div>
         <div>

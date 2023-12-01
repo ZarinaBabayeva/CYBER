@@ -4,8 +4,8 @@
   --news-card-per-row: 4;
   --news-card-gap: 15px;
 }
-.animation video {
-  height: 400px;
+.animation img {
+  margin: 50px 0;
 }
 .hero-text {
   width: 60%;
